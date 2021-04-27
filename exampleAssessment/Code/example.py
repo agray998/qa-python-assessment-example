@@ -13,7 +13,7 @@
 
 # What was the name of the function we have seen which changes the case of a string?  Use your CLI to access the Python documentation and get help(str).
 
-def endsPy(strng):
-    strng = strng.lower()
+def endsPy(input):
+    strng = input.lower()
     return strng.endswith('py', -2)
 
